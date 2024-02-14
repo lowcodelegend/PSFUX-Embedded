@@ -102,9 +102,11 @@ renderListView = () => {
 renderHeader = () => {
     $('div[name="' + HEADER_AREA_ITEM_NAME + '"]').closest('.view').addClass('header');
     $('span[name="' + LOGO_CELL_NAME + '"]').addClass('logo');
-    if (isMobile()) {
+    
+    //always use mobile header for embedded
+    //if (isMobile()) {
         renderMobileHeader();
-    }
+    //}
 }
 
 renderSearchBox = () => {
