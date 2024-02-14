@@ -31,8 +31,8 @@ body.theme-entry .psf,
     /*--sidebar-shadow-color: # 585858; */
     --sidebar-label-color: var(--page-background-color);
     --sidebar-padding: 50px;
-    --form-background-color: #f3f3f3;
-    --page-background-color: #f3f3f3;
+    --form-background-color: #fff;
+    --page-background-color: #fff;
     --view-header-text-size: 2em;
     --main-font-family: "Montserrat", sans-serif;
     --heading-font-family: "Montserrat", sans-serif;
