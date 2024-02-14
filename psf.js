@@ -12,7 +12,8 @@ detectClicks = () => {
     });
 }
 
-isMobile = () => $('html').hasClass("mobile");
+//always mobile for embedded
+isMobile = true;
 
 $(document).ready(function () {
     enableTheme();
