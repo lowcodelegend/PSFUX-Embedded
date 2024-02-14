@@ -29,12 +29,13 @@ enableTheme = () => {
 
 render = () => {
     renderHeader();
-    renderNavigation();
+    renderDrawer();
     renderKPIs();
     renderSearchBox();
 }
 
-renderNavigation = () => isMobile() ? renderDrawer() : renderSidebar();
+//always render drawer in embedded mode
+//renderNavigation = () => isMobile() ? renderDrawer() : renderSidebar();
 
 renderSidebar = () => {
     const sidebar = $("<div id='sidebar' class='sidebar'></div>");
