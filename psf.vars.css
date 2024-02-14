@@ -24,7 +24,7 @@ body.theme-entry .psf,
 .theme-entry #pgInnerPanel .view-canvas>.panel,
 .theme-entry .form-tabs>.tab-box-body .view-canvas>.panel,
 .theme-entry #pgTabContent .view-canvas>.panel {
-    --drawer-handler-width: 5rem;
+    --drawer-handler-width: 4rem;
     --sidebar-width: 250px;
     --sidebar-width-ratio: 1%;
     --sidebar-background-color: #191e31;
@@ -37,9 +37,9 @@ body.theme-entry .psf,
     --main-font-family: "Montserrat", sans-serif;
     --heading-font-family: "Montserrat", sans-serif;
     --button-font-family: "Montserrat", sans-serif;
-    --page-subtitle-text-size: 2rem;
-    --main-text-size: 1.5rem;
-    --page-title-text-size: 3em;
+    --page-subtitle-text-size: 1.5rem;
+    --main-text-size: 1.2rem;
+    --page-title-text-size: 2.6em;
     --page-title-text-color: var(--normal-text-color);
     --page-subtitle-text-color: #919496;
     --page-subtitle-text-size: 2em;
