@@ -12,8 +12,7 @@ detectClicks = () => {
     });
 }
 
-//always mobile for embedded
-isMobile = true;
+isMobile = () => true;
 
 $(document).ready(function () {
     enableTheme();
