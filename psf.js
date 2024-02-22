@@ -155,7 +155,11 @@ renderSlider = () => {
             $("#sidebar-handler").removeClass('expanded');
         }
     });
-    $('span.tab-text').click(() => slider.slideReveal("hide"));
+    $('span.tab-text').click(() => slider.slideReveal("hide")); //suspect not needed
+
+    //iOS clicking bug hack
+    const myTabs = document.body.querySelectorAll('span.tab-text')
+    myTabs.forEach( t => {t.addEventListener('touchend', e => {t.closest('a').click(); console.log('clicking ' + t.innerText)})});
 }
 
 renderDrawer = () => {
